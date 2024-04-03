@@ -7,6 +7,9 @@ public class Ball : MonoBehaviour
     Rigidbody2D rb;
     public float speed = 10f;
     public GameObject enemy;
+    public AudioClip sound;
+    public AudioSource source;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +25,22 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        /*
-        if (collision.gameObject.name == "Emoji")
+        var brick = collision.gameObject.GetComponent<Brick>();
+        if (brick)
         {
-            Destroy(enemy);
+            source.clip = sound;
+            source.Play();
+            brick.Damage();
         }
-        */
+
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            print("found");
+            transform.position = new Vector3(0, 0, 0);
+            GameManager.lives--;
+        }
     }
+
+
+
 }

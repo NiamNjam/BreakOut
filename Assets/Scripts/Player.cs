@@ -17,4 +17,6 @@ public class Player : MonoBehaviour
     {
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
     }
+
+    
 }
