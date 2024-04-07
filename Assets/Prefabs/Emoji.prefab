@@ -147,3 +147,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   score: 100
+  newPos: {fileID: 0}
+  screen: {fileID: 821983561917518868, guid: 29b630ac1bc182b4f9bdc34a06937e98, type: 3}

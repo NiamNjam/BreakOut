@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Ball : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Ball : MonoBehaviour
     public GameObject enemy;
     public AudioClip sound;
     public AudioSource source;
+    public ParticleSystem particles;
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,8 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        particles.Play();
+
         var brick = collision.gameObject.GetComponent<Brick>();
         if (brick)
         {

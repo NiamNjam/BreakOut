@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7768774098245780348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2253911629886400664, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_Name
+      value: backGround
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_Size.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_Size.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_SortingOrder
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.019400027
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.563118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0064117103
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 625119233139193271}
+  m_SourcePrefab: {fileID: -8435245712485981826, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+--- !u!1 &821983561917518868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: f5bda52557d722d41855eaf6e79e18b2, type: 3}
+  m_PrefabInstance: {fileID: 7768774098245780348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &625119233139193271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821983561917518868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02085e44b96de74697497182a20374c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
